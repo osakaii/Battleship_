@@ -1,0 +1,59 @@
+.userList {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(31, 31, 31, 0.918);
+    min-width: 20vw;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s ease-in-out;
+    z-index: 20;
+  }
+  .user {
+    color: white;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 20px;
+  }
+  .UsersText {
+    color: white;
+    text-align: center;
+    margin: 7px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    font-size: 32px;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(78, 78, 78);
+  }
+  
+  .open {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: calc(100% - 80px);
+    border-top: 65px solid transparent;
+    border-bottom: 65px solid transparent;
+    border-left: 80px solid rgb(128, 128, 128);
+    transition: 0.3s ease-in-out;
+    transform: scaleX(-1);
+  }
+  
+  .closed{
+      transform: translate(-100%);
+  }
+  
+  .closedButton{
+      
+      transform: scaleX(1);
+      left: 100%;
+  }

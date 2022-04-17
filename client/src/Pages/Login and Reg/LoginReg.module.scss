@@ -1,0 +1,48 @@
+
+.SignPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    outline: 2px solid black;
+    padding: 2vw;
+    min-width: 500px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    h1{
+        text-align: center;
+        color: rgb(61, 61, 61);
+    }
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    font-size: 2vw;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.form_bottom{
+    display: flex;
+    justify-content: space-between;
+    button{
+        padding: 10px 30px;
+        background-color: white;
+        font-size: 30px;
+        border: 1px solid rgb(114, 114, 114);
+        font-family: 'Poppins', sans-serif;
+    }
+    a{
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 10px 30px;
+    }
+}
