@@ -1,6 +1,6 @@
-Battle Ship
+Battleship
 
-This is the django project for battle ship game
+This is the django project for battleship game
 
 
 Run this commands to create virtualenv: python3 -m venv venv . venv/bin/activate pip install -r requirements.txt
